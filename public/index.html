@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>我的电商小站</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">我的商店</h1>
+      <nav>
+        <button id="cart-button">购物车 (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="products" class="product-grid"></section>
+  </main>
+
+  <div id="cart-drawer" class="cart-drawer hidden">
+    <button id="close-cart">关闭</button>
+    <h2>购物车</h2>
+    <div id="cart-items"></div>
+    <div class="cart-summary">
+      <div>合计: ¥<span id="cart-total">0.00</span></div>
+      <button id="checkout-button">结账</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
