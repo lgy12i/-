@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p1",
+    "name": "简约白色T恤",
+    "description": "100% 棉，舒适百搭",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1520975911690-4c09b0f7d9a2?w=800&q=80"
+  },
+  {
+    "id": "p2",
+    "name": "休闲牛仔裤",
+    "description": "高弹面料，舒适耐穿",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1584999732842-3bdb6f7c3866?w=800&q=80"
+  },
+  {
+    "id": "p3",
+    "name": "轻便运动鞋",
+    "description": "减震鞋底，透气鞋面",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1526178613214-0f5d8aa3e45b?w=800&q=80"
+  }
+]
